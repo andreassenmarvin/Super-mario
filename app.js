@@ -198,3 +198,31 @@ scene("game", ({ level, score }) => {
       })
     })
   })
+
+  keyDown('left', () => {
+    player.move(-MOVE_SPEED, 0)
+  })
+
+  keyDown('right', () => {
+    player.move(MOVE_SPEED, 0)
+  })
+
+  player.action(() => {
+    if(player.grounded()) {
+      isJumping = false
+    }
+  })
+
+  keyPress('space', () => {
+    if (player.grounded()) {
+      isJumping = true
+      player.jump(CURRENT_JUMP_FORCE)
+    }
+  })
+})
+
+scene('lose', ({ score }) => {
+  add([text(score, 32), origin('center'), pos(width()/2, height()/ 2)])
+})
+
+start("game", { level: 0, score: 0})
