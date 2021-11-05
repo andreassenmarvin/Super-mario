@@ -1,8 +1,9 @@
 # SUPER MARIO
 A sample of super mario game relpica.
 ## Description
-![Website image](/Assets/README/scr1.png)
-![Website image](/Assets/README/scr2.png)
+![Website image](Assets/README/s1.png)
+![Website image](Assets/README/s2.png)
+![Website image](Assets/README/s3.png)
 ## Setup/Installation Requirements
 * Fork/Clone the repository
 ```
