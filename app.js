@@ -4,9 +4,9 @@ kaboom({
     scale: 2,
     debug: true,
     clearColor: [0, 0, 0, 1],
-  })
+})
 
-  // Speed identifiers
+// Speed identifiers
 const MOVE_SPEED = 120
 const JUMP_FORCE = 360
 const BIG_JUMP_FORCE = 550
