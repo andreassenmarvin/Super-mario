@@ -1,5 +1,5 @@
 # SUPER MARIO
-A sample of super mario game relpica.
+A sample of super mario game replica.
 ## Description
 ![Website image](Assets/README/s1.png)
 ![Website image](Assets/README/s3.png)
@@ -10,6 +10,8 @@ A sample of super mario game relpica.
 ```
 * Open your project on your favorite editor
 * Open project on Live Server
+* Use directions to move player
+* Use space to jump
 ## Known Bugs
 No known bugs
 ## Technologies Used
